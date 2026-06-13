@@ -4,14 +4,12 @@ function About() {
   return (
     <section className="relative py-24 overflow-hidden">
 
-      {/* Top Left Circle */}
       <img
         src="/Ellipse181.png"
         alt=""
         className="absolute -top-6 left-8 w-16 h-16"
       />
 
-      {/* Bottom Center Circle */}
       <img
         src="/Ellipse182.png"
         alt=""
@@ -21,12 +19,11 @@ function About() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-16">
 
-          {/* Left Content */}
-          <div className="flex-1 max-w-[520px]">
+          <div className="flex-1 max-w-130">
 
-            <div className="w-[70px] h-1 bg-gradient-to-r from-[#F76680] to-[#57007B] mb-8"></div>
+            <div className="w-17.5 h-1 bg-linear-to-r from-[#F76680] to-[#57007B] mb-8"></div>
 
-            <h2 className="text-[32px] md:text-[35px] leading-[55px] text-[#1A202C]">
+            <h2 className="text-[32px] md:text-[35px] leading-13.75 text-[#1A202C]">
               Leading companies trust us
               <br />
               <span className="font-bold">
@@ -52,38 +49,34 @@ function About() {
 
           </div>
 
-          {/* Right Side */}
           <div className="relative flex-1 flex justify-center">
 
-            {/* Pink Shape */}
             <img
               src="/Rectangle 7.png"
               alt=""
               className="
                 absolute
-                right-[-120px]
+                -right-30
                 top-1/2
                 -translate-y-1/2
                 w-[320px]
-                md:w-[420px]
+                md:w-105
                 z-0
               "
             />
 
-            {/* Team Image */}
             <div className="relative z-10">
               <img
                 src="/about.png"
                 alt="Team"
-                className="rounded-[12px] w-full max-w-[550px]"
+                className="rounded-xl w-full max-w-137.5"
               />
 
-              {/* Play Button */}
               <button
                 type="button"
-                className="absolute inset-0 m-auto w-[72px] h-[72px] rounded-full bg-white shadow-lg flex items-center justify-center"
+                className="absolute inset-0 m-auto w-18 h-18 rounded-full bg-white shadow-lg flex items-center justify-center"
               >
-                <div className="w-[56px] h-[56px] rounded-full bg-[#57007B] flex items-center justify-center text-white">
+                <div className="w-14 h-14 rounded-full bg-[#57007B] flex items-center justify-center text-white">
                   <FaPlay className="ml-1" />
                 </div>
               </button>
