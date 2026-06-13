@@ -1,39 +1,50 @@
-
 function Hero() {
   return (
-    <section className="max-w-7xl mx-auto px-6 lg:px-10 py-12 lg:py-20">
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+    <section className="max-w-7xl mx-auto px-6 lg:px-10 py-16 lg:py-24">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-16">
 
-        {/* Left Content */}
+        {/* Left */}
         <div className="flex-1 text-center lg:text-left">
 
-          <p className="text-sm md:text-base text-gray-500 mb-4">
-            Great Software Is Built By Great Teams
-          </p>
+          <h1 className="text-[48px] md:text-[60px] lg:text-[70px] leading-tight font-light text-[#1A202C]">
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            We Help Build And Manage A Team Of
-            <span className="bg-linear-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
-              {" "}World-Class Developers
+            Great{" "}
+
+            <span className="bg-linear-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent font-bold">
+              Product
             </span>
+
+            {" "}is
+
+            <br />
+
+            <span className="font-bold">
+              built by great
+            </span>{" "}
+
+            <span className="bg-linear-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent font-bold">
+              teams
+            </span>
+
           </h1>
 
-          <p className="mt-6 text-gray-600 text-base md:text-lg max-w-xl mx-auto lg:mx-0">
-            Our team specializes in building scalable and high-quality
-            digital solutions that help businesses grow faster.
+          <p className="mt-10 text-[#718096] text-[18px] leading-10 max-w-130">
+            We help build and manage a team of world-class developers
+            to bring your vision to life
           </p>
 
-          <button className="mt-8 cursor-pointer px-8 py-4 rounded-lg bg-linear-to-r from-purple-600 to-blue-500 text-white font-medium shadow-lg hover:scale-105 transition">
-            Let’s Get Started
+          <button className="mt-12 px-10 py-4 rounded-lg bg-linear-to-r from-[#57007B] to-[#3B82F6] text-white font-medium shadow-lg cursor-pointer">
+            Let’s get started!
           </button>
+
         </div>
 
-        {/* Right Image */}
+        {/* Right */}
         <div className="flex-1 flex justify-center">
           <img
-            src="/public/hero.png"
+            src="/hero.png"
             alt="Hero"
-            className="w-full max-w-md lg:max-w-xl"
+            className="w-full max-w-162.5"
           />
         </div>
 
