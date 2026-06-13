@@ -74,7 +74,7 @@ function About() {
 
               <button
                 type="button"
-                className="absolute inset-0 m-auto w-18 h-18 rounded-full bg-white shadow-lg flex items-center justify-center"
+                className="absolute inset-0 m-auto w-18 h-18 rounded-full shadow-2xl flex items-center justify-center"
               >
                 <div className="w-14 h-14 rounded-full bg-[#57007B] flex items-center justify-center text-white">
                   <FaPlay className="ml-1" />
