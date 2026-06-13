@@ -48,10 +48,9 @@ function Testimonials() {
     <section className="bg-[#F9F9FF] py-24">
       <div className="max-w-7xl mx-auto px-6">
         
-        {/* Top Line */}
         <div className="w-17.5 h-1 bg-linear-to-r from-[#F76680] to-[#57007B] mx-auto mb-6"></div>
 
-        {/* Heading */}
+
         <h2 className="text-center text-[32px] md:text-[35px] text-[#1A202C]">
           Why customers love
           <br />
@@ -60,7 +59,7 @@ function Testimonials() {
           </span>
         </h2>
 
-        {/* Quote */}
+        
         <div className="max-w-3xl mx-auto mt-12 text-center relative">
           <span className="absolute -left-4 top-0 text-5xl text-[#F76680]">
             ❝
@@ -78,7 +77,7 @@ function Testimonials() {
           </span>
         </div>
 
-        {/* Arrows */}
+        
         <div className="flex justify-between items-center mt-12">
           <button
             type="button"
@@ -97,7 +96,7 @@ function Testimonials() {
           </button>
         </div>
 
-        {/* Profiles */}
+        
         <div className="flex justify-center gap-10 mt-12 min-h-42.5 flex-wrap md:flex-nowrap">
           {testimonials.map((person, index) => (
             <div

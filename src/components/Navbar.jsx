@@ -17,7 +17,7 @@ function Navbar() {
     <nav className="w-full bg-white sticky z-50 top-0 shadow-sm">
       <div className="max-w-7xl mx-auto px-6 lg:px-6">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+
           <div className="flex justify-between items-center gap-2">
             <img
               src="/public/Vector.png"
@@ -27,7 +27,7 @@ function Navbar() {
             <h1 className="text-black font-inspiration text-2xl">JkDevelopers</h1>
           </div>
 
-          {/* Desktop Menu */}
+          
           <div className="hidden lg:flex items-center gap-10">
             {navLinks.map((link) => (
               <a
@@ -40,14 +40,14 @@ function Navbar() {
             ))}
           </div>
 
-          {/* Desktop Button */}
+         
           <div className="hidden lg:block">
             <button className="px-6 py-3 cursor-pointer rounded-lg bg-linear-to-r from-purple-600 to-blue-500 text-white font-medium shadow-lg hover:scale-105 transition">
               Contact us
             </button>
           </div>
 
-          {/* Mobile Menu Button */}
+          
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="lg:hidden"
@@ -57,7 +57,7 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Mobile & Tablet Menu */}
+      
       {isOpen && (
         <div className="lg:hidden bg-white border-t">
           <div className="flex flex-col px-6 py-4 gap-4">

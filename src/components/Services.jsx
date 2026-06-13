@@ -40,15 +40,15 @@ function Services() {
     <section className="bg-[#F9F9FF] py-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
 
-        {/* Top Line */}
+        
         <div className="w-16 h-1 bg-linear-to-r from-[#F76680] to-[#57007B] mx-auto mb-4"></div>
 
-        {/* Heading */}
+       
         <h2 className="text-center text-[28px] md:text-[35px] font-bold text-[#1A202C] mb-14">
           Services we offer
         </h2>
 
-        {/* Cards */}
+       
         <div className="flex gap-8 overflow-x-auto pb-6 scrollbar-none cursor-pointer">
           {services.map((service, index) => (
             <div
@@ -61,7 +61,7 @@ function Services() {
             >
               <div className="bg-[#FAFAFA] h-full rounded-[7px] p-6 md:p-8">
 
-                {/* Icon */}
+              
                 <div className="w-14.5 h-14.5 rounded-full border border-[#57007B] flex items-center justify-center mb-6">
                   <img
                     src={service.img}
@@ -70,7 +70,7 @@ function Services() {
                   />
                 </div>
 
-                {/* Title */}
+
                 <h3
                   className={`text-[22px] md:text-[24px] font-semibold mb-4 ${
                     index === activeIndex
@@ -81,7 +81,7 @@ function Services() {
                   {service.title}
                 </h3>
 
-                {/* Description */}
+
                 <p className="text-[#718096] text-[15px] md:text-[16px] leading-7">
                   {service.desc}
                 </p>
@@ -90,7 +90,7 @@ function Services() {
           ))}
         </div>
 
-        {/* Dots */}
+
         <div className="flex cursor-pointer justify-center gap-3 mt-8">
           {services.map((_, index) => (
             <button
@@ -105,7 +105,7 @@ function Services() {
           ))}
         </div>
 
-        {/* Counter */}
+
         <div className="flex justify-end items-center gap-3 mt-10">
           <span className="text-[#A0AEC0] text-xl">
             {String(activeIndex + 1).padStart(2, "0")}

@@ -1,9 +1,9 @@
+import { TypeAnimation } from "react-type-animation";
 function Hero() {
   return (
     <section className="max-w-7xl mx-auto px-6 lg:px-10 py-16 lg:py-24">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-16">
 
-        {/* Left */}
         <div className="flex-1 text-center lg:text-left">
 
           <h1 className="text-[48px] md:text-[60px] lg:text-[70px] leading-tight font-light text-[#1A202C]">
@@ -19,7 +19,15 @@ function Hero() {
             <br />
 
             <span className="font-bold">
-              built by great
+             <TypeAnimation
+              sequence={[
+                "built by great",
+                2500,
+              ]}
+              speed={5}
+              repeat={Infinity}
+              cursor={false}
+            />
             </span>{" "}
 
             <span className="bg-linear-to-r from-[#F76680] to-[#57007B] bg-clip-text text-transparent font-bold">
@@ -39,7 +47,7 @@ function Hero() {
 
         </div>
 
-        {/* Right */}
+
         <div className="flex-1 flex justify-center">
           <img
             src="/hero.png"
