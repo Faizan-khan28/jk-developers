@@ -20,7 +20,7 @@ function Navbar() {
 
           <div className="flex justify-between items-center gap-2">
             <img
-              src="/public/Vector.png"
+              src="/Vector.png"
               alt="logo"
               className="h-10 object-contain"
             />
